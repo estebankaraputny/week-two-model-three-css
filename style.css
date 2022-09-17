@@ -1,0 +1,275 @@
+/* Normalize */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* START NAVEGATION */
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./assets/image/design1_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container-navegation{
+    background-color: rgb(0, 0, 0);
+}
+
+.navegation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image-logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+.title-principal{
+    font-size: 25px;
+    color: rgb(225, 241, 0);
+}
+
+/* .navegation-list{
+} */
+
+
+
+ .navegation-links{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+    margin: 5%;
+}
+
+.links{
+    background-color:  rgb(185, 19, 19);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.links:hover{
+    background-color: rgb(221, 34, 34);
+    color:rgb(255, 255, 255);
+    transition: .3s;
+}
+
+/* END NAVEGATION
+START MAIN SECTION */
+
+
+.container-section{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+.conteiner-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+
+.rejas{
+    background-color:  rgba(0, 0, 0, 0.397);
+    color: white;
+    width: 20%;
+    height: 350px;
+    text-align: center;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.281); */
+}
+.rejas:hover{
+    background-color: rgba(0, 0, 0, 0.582);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rejas-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.rejas-titles{
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+.rejas-parrafos{
+    font-size: 20px;
+}
+
+/* END INDEX - HOME 
+AND
+START ABOUT */
+
+.container-information{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
+.information-details{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.information-details:hover{
+    background-color: rgba(0, 0, 0, 0.582);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.details-title{
+    margin-bottom: 15%;
+}
+
+.details-parrafo{
+    font-size: 20px;
+}
+
+
+/* END PAGE ABOUT and START PAGE CONTACT */
+
+
+.form {
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+}
+
+.title-contact{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 40%;
+    margin: auto;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px ;
+    border-radius: 30px;
+}
+
+.form-content{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    border-radius: 15px;
+}
+
+.contact-title-form{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.register-form {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+}
+
+.contact-title{
+    font-size: 20px;
+}
+
+.date-form{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(165, 2, 2);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    appearance: none;
+}
+
+
+.title-date-form{
+    width: 100%;
+    padding:10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-botton{
+    width: 100%;
+    padding: 1em;
+    background:rgb(165,2,2);
+    border: none;
+    border-bottom: 1px solid rgb(165, 2, 2);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.form-botton:hover{
+    background:rgb(199, 6, 6);
+    cursor:pointer
+}
+
+.info-form{
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.774);
+}
+
+.title-info-form{
+    padding: 10px;
+    text-align: center;
+}
+
+.email-info-form, 
+.lorem-info-form,
+.emprese-info-form{ 
+    padding: 10px;
+}
+
+.emprese-info-form{
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(199, 6, 6);
+}
+
+.email-contact{
+    color: rgb(199, 6, 6);
+}
