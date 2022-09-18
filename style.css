@@ -82,7 +82,6 @@ START MAIN SECTION */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 10%;
 }
 
 
@@ -125,10 +124,13 @@ START ABOUT */
 .container-information{
     width: 85%;
     margin: auto;
+    
+}
+
+.details-supreme{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10% 0;
 }
 
 .information-details{
@@ -137,6 +139,7 @@ START ABOUT */
     text-align: center;
     color: rgb(255,255,255);
     background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
 }
 
 .information-details:hover{
@@ -160,20 +163,24 @@ START ABOUT */
 .form {
     width: 80%;
     margin: auto;
-    padding-top: 5%;
 }
 
 .container {
     width: 70%;
     margin: auto;
-    padding: 5%;
 }
 
-.title-contact{
+.title-pages{
+    margin-top: 5%;
+    display: flex;
+    flex: 100%;
+}
+
+.title-pages-h2{
     background-color: rgba(0, 0, 0, 0.637);
     width: 40%;
     margin: auto;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 40px ;
